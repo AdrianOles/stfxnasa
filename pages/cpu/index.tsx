@@ -10,6 +10,7 @@ const figtree = Figtree({ subsets: ['latin'] })
 
 export default function Home() {
     const router = useRouter();
+    const loaderProp = ({ src } : any) => { return src }
 
     const cpuChange = (res: any) => {
         if (res === "101010") {
@@ -30,6 +31,7 @@ export default function Home() {
                 className='absolute z-50 top-24 right-24 opacity-[70%]'
                 width={100}
                 height={100}
+                loader={loaderProp}
             />
 
 
