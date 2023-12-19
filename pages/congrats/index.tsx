@@ -14,7 +14,6 @@ export default function Home() {
     const [loading, setLoading] = useState(true);
     const [gameBegins, setGameBegins] = useState(false);
     const router = useRouter();
-    const { width, height } = useWindowSize()
 
     useEffect(() => {
         const changeLoading = setTimeout(() => {
@@ -31,8 +30,8 @@ export default function Home() {
 
             <div className='w-[100vw] h-[100vh] fixed'>
                 <Confetti
-                    width={width}
-                    height={height}
+                    width={2000}
+                    height={2000}
                 />
             </div>
 
