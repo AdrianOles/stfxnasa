@@ -67,17 +67,17 @@ export default function Home() {
                         <div className='flex flex-col gap-10'>
                             <div>
                                 <div>
-                                    "In the dance of numbers, a curious sight,
+                                    &quot;In the dance of numbers, a curious sight,
                                     Lights flicker, shifting, creating a plight.
-                                    Two turns to naught, three to one's realm,
+                                    Two turns to naught, three to one&apos;s realm,
                                     This cryptic shift, a code to overwhelm.
                                 </div>
                                 <div className='mt-4' />
                                 <div>
                                     In this flickering maze, digits align,
                                     Unlock the secret, the answer entwined.
-                                    Teleportation's key, within this code's grace,
-                                    Crack it well to escape this confined space."
+                                    Teleportation&apos;s key, within this code&apos;s grace,
+                                        Crack it well to escape this confined space.&quot;
                                 </div>
                             </div>
                             <div>
