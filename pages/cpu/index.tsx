@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                     <div className='w-full h-full relative'>
                         <Image 
-                            src="https://i.gifer.com/24Qk.gif"
+                            src="https://www.pcworld.com/wp-content/uploads/2023/04/intel-cpu-rocket-lake-rear.jpg?quality=50&strip=all"
                             className='rounded-[20px] image-shadow'
                             fill
                             alt="CPU animation"

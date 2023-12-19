@@ -7,7 +7,9 @@ const nextConfig = {
       "i.pinimg.com",
       "media2.giphy.com",
       "cdn.freebiesupply.com",
-      "assets.stickpng.com"
+      "assets.stickpng.com",
+      "www.pcworld.com",
+      "www.ebuyer.com"
     ]
   }
 }

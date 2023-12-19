@@ -56,7 +56,7 @@ export default function Home() {
                 <div className='flex w-full h-full'>
                     <div className='w-full h-full relative'>
                         <Image
-                            src="https://i.gifer.com/7qb5.gif"
+                            src="https://www.pcworld.com/wp-content/uploads/2023/04/motherboard-pic-100894792-orig.jpg?quality=50&strip=all"
                             className='rounded-[20px] image-shadow'
                             fill
                             alt="CPU animation"

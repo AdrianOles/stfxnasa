@@ -59,7 +59,7 @@ export default function Home() {
                     </div>
                     <div className='w-full h-full relative'>
                         <Image 
-                            src="https://i.pinimg.com/originals/f6/23/a5/f623a53a7d59d223cfab3998a2e6c4ce.gif"
+                            src="https://www.ebuyer.com/blog/wp-content/uploads/2020/03/shutterstock_1199173633.jpg"
                             fill
                             className='rounded-[20px] image-shadow'
                             alt="CPU animation"

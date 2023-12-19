@@ -56,7 +56,7 @@ export default function Home() {
                 <div className='flex w-full h-full'>
                     <div className='w-full h-full relative'>
                         <Image
-                            src="https://media2.giphy.com/media/3oKIPmHmREIV18Xtbq/giphy.gif"
+                            src="https://www.pcworld.com/wp-content/uploads/2023/04/corsair-dominator-memory-100884308-orig-1.jpg?quality=50&strip=all"
                             fill
                             className='rounded-[20px] image-shadow'
                             alt="CPU animation"
