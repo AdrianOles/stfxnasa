@@ -29,10 +29,12 @@ export default function Home() {
             <div className='bg-[#CE18F2] h-[300px] w-[300px] absolute top-0 right-0 rounded-full' />
             <div className='w-full h-full bg-back absolute' />
 
-            <Confetti
-                width={width}
-                height={height}
-            />
+            <div className='w-[100vw] h-[100vh] fixed'>
+                <Confetti
+                    width={width}
+                    height={height}
+                />
+            </div>
 
             <div className='w-full h-full flex items-center justify-center z-50 flex-col gap-10'>
                 <CircleLoader
