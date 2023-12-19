@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-back {
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(262.5px);
+}
+
+.badges>* {
+    margin-right: 8px;
+}
+
+.container {
+    padding: 16px;
+}
+
+input {
+    max-width: 45px;
+    height: 45px;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 12px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    border: 0.6px solid rgba(255, 255, 255, 0.60);
+    background: radial-gradient(111.77% 111.77% at 0% 10.48%, rgba(204, 204, 204, 0.35) 0%, rgba(128, 128, 128, 0.25) 100%);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.35), 0px 0px 12px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(12.5px);
+    background-clip: padding-box;
+}
+
+input:focus {
+    appearance: none;
+    outline: 0;
+    border: 1px solid #FFF;
+    background: radial-gradient(111.77% 111.77% at 0% 10.48%, rgba(204, 204, 204, 0.35) 0%, rgba(128, 128, 128, 0.25) 100%);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.35), 0px 0px 24px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+.image-shadow {
+    box-shadow: 6px 12px 24px 0px rgba(0, 0, 0, 0.35);
+}
+
+
+.shape {
+    animation: 44s -27s shape infinite ease-in-out alternate;
+}
+
+@keyframes shape {
+    from {
+        transform: rotate(0deg) scale(1) translateX(-500px);
+    }
+
+    to {
+        transform: rotate(360deg) scale(1.5) translateX(500px);
+    }
+}
